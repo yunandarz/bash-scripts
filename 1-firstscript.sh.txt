@@ -1,0 +1,19 @@
+#!/bin/bash
+
+### This script show system information ###
+echo "this is first script"
+echo "####################"
+
+# check system uptime
+echo "the uptime of the system is: "
+uptime
+echo "####################"
+
+# memory utilization
+echo "Memory Use"
+free -m
+echo "####################"
+
+# disk utilization
+echo "Disk Use"
+df -h
